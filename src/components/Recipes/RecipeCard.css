@@ -1,0 +1,38 @@
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  overflow: hidden;
+  margin: 10px;
+  /*min-width: 40%;*/
+  padding: 40px;
+}
+ 
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+ 
+.card-content {
+  padding: 10px;
+  width: 100%;
+}
+ 
+.card-content h3 {
+  margin-top: 0;
+  /*font-size: 1.2em;*/
+  font-size: 25px;
+}
+ 
+.card-content p {
+  margin: 10px 0;
+  font-size: 25px;
+}
+ 
+.card-content ul {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
