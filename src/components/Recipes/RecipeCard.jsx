@@ -9,20 +9,20 @@ const RecipeCard = ({ image, title, ingredients,instructions }) => {
 <h3>{title}</h3>
 
 <h4>Ingredients:</h4>
-<ol>
+<ul>
   
           {ingredients.map((ingredient, index) => (
 <li key={index}>{ingredient}</li>
           ))}
-</ol>
+</ul>
 
 <h4>Instructions:</h4>
-<ol>
+<ul>
   
           {ingredients.map((instructions, index) => (
 <li key={index}>{instructions}</li>
           ))}
-</ol>
+</ul>
 </div>
 </div>
   );

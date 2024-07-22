@@ -2,37 +2,45 @@
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 500px;
+  width: 300px; /* Adjust width as needed */
   overflow: hidden;
-  margin: 10px;
-  /*min-width: 40%;*/
-  padding: 40px;
-}
- 
-.card-image {
-  width: 100%;
-  height: auto;
-  border-radius: 50%;
-}
- 
-.card-content {
-  padding: 10px;
-  width: 100%;
-}
- 
-.card-content h3 {
-  margin-top: 0;
-  /*font-size: 1.2em;*/
-  font-size: 25px;
-}
- 
-.card-content p {
-  margin: 10px 0;
-  font-size: 25px;
-}
- 
-.card-content ul {
-  list-style-type: circle;
-  padding-left: 20px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.card-image {
+  width: 150px; /* Set width to be equal to height for a circle */
+  height: 150px; /* Set height to be equal to width */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image covers the circle */
+  margin-bottom: 20px;
+}
+
+.card-content {
+  text-align: center;
+}
+
+.card-content h3 {
+  margin-top: 0;
+  font-size: 22px; /* Adjust size as needed */
+  margin-bottom: 10px;
+}
+
+.card-content h4 {
+  margin-top: 20px;
+  font-size: 18px; /* Adjust size as needed */
+  margin-bottom: 10px;
+}
+
+.card-content ul {
+  list-style-type: disc; /* Use disc bullets for unordered lists */
+  padding-left: 20px; /* Adjust padding as needed */
+  text-align: left; /* Align text to the left */
+}
+
+.card-content li {
+  margin-bottom: 5px; /* Adjust spacing between items */
+}

@@ -29,7 +29,6 @@
 }
 .Slider-container .SlideContent{  
     padding: 0.9rem 2rem;
-    background-color: #54301a69;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -183,4 +182,20 @@ padding: 1.2rem 0;
         height:100%;
         border-radius: 12px 0 0 0;
      }
+}
+
+.foodtype {
+    font-weight: bold;
+    border-bottom: 2px solid;
+    padding: 0.2rem;
+}
+
+.foodtype.Veg {
+    color: green;
+    border-color: green;
+}
+
+.foodtype.Non-Veg {
+    color: red;
+    border-color: red;
 }
